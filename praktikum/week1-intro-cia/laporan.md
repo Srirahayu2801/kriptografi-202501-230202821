@@ -1,9 +1,9 @@
 # Laporan Praktikum Kriptografi
 Minggu ke-:1
-Topik: [judul praktikum]  
-Nama: [Nama Sri Rahayu
-NIM: [230202821]  
-Kelas: [5Ikrb]  
+Topik: CIA_intro.md  
+Nama:  Sri Rahayu
+NIM: 230202821  
+Kelas: 5Ikrb  
 
 Soal 1. Sejarah Singkat Kriptografi
 Kriptografi, yang secara harfiah berarti "tulisan rahasia," bermula dari kebutuhan untuk menyembunyikan pesan.
@@ -37,7 +37,7 @@ Contoh nyata:
 Situs e-commerce besar seperti Tokopedia atau Shopee menggunakan server redundan dan sistem backup agar tetap beroperasi meski terjadi gangguan atau serangan DDoS.
 Dalam rumah sakit digital, server cadangan dan UPS (Uninterruptible Power Supply) digunakan agar sistem rekam medis tetap dapat diakses meskipun terjadi pemadaman listrik.
 
-Soal 3. Quiz Singkat 
+3. Perbedaan utama antara kriptografi klasik dan kriptografi modern terletak pada jenis kunci, dasar keamanan, serta cara penerapannya.
 Kriptografi klasik menggunakan satu kunci yang sama (simetris) untuk proses enkripsi dan dekripsi. Keamanannya didasarkan pada pergantian huruf atau pola teks, seperti pada metode Caesar Cipher atau Vigenère Cipher, yang banyak digunakan pada masa lalu untuk komunikasi manual.
 Sementara itu, kriptografi modern menggunakan dua kunci berbeda (asimetris), yaitu kunci publik dan kunci privat. Sistem ini didukung oleh konsep matematika yang kompleks, seperti teori bilangan dan logaritma diskrit, sehingga jauh lebih sulit untuk dipecahkan. Kriptografi modern digunakan dalam berbagai sistem komputer dan komunikasi digital, dengan contoh algoritma seperti RSA, AES, dan Elliptic Curve Cryptography (ECC).
 Dengan demikian, kriptografi modern memiliki tingkat keamanan yang lebih tinggi dan sesuai untuk kebutuhan era digital saat ini.
