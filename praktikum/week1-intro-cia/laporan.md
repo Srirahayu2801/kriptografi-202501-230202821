@@ -37,7 +37,8 @@ Contoh nyata:
 Situs e-commerce besar seperti Tokopedia atau Shopee menggunakan server redundan dan sistem backup agar tetap beroperasi meski terjadi gangguan atau serangan DDoS.
 Dalam rumah sakit digital, server cadangan dan UPS (Uninterruptible Power Supply) digunakan agar sistem rekam medis tetap dapat diakses meskipun terjadi pemadaman listrik.
 
-3. Perbedaan utama antara kriptografi klasik dan kriptografi modern terletak pada jenis kunci, dasar keamanan, serta cara penerapannya.
-Kriptografi klasik menggunakan satu kunci yang sama (simetris) untuk proses enkripsi dan dekripsi. Keamanannya didasarkan pada pergantian huruf atau pola teks, seperti pada metode Caesar Cipher atau Vigenère Cipher, yang banyak digunakan pada masa lalu untuk komunikasi manual.
-Sementara itu, kriptografi modern menggunakan dua kunci berbeda (asimetris), yaitu kunci publik dan kunci privat. Sistem ini didukung oleh konsep matematika yang kompleks, seperti teori bilangan dan logaritma diskrit, sehingga jauh lebih sulit untuk dipecahkan. Kriptografi modern digunakan dalam berbagai sistem komputer dan komunikasi digital, dengan contoh algoritma seperti RSA, AES, dan Elliptic Curve Cryptography (ECC).
-Dengan demikian, kriptografi modern memiliki tingkat keamanan yang lebih tinggi dan sesuai untuk kebutuhan era digital saat ini.
+3.Apa perbedaan utama antara kriptografi klasik dan kriptografi modern ?
+ Perbedaan utama anatara kriptografi klasik dan kriptografi modern terletak pada basis keamanan,kompleksitas, dan prinsip dasarnya. 
+a.	Kriptografi klasik berfokus pada manipulasi karakter dan Bahasa menggunakan metode substitusi dan transposisi, dengan proses yang relatif sederhana dan dapat dilakukan secara manual. Keamanannya bergantung pada kerahasiaan algoritma yang digunakan.
+
+b.	Kriptografi modern didasarkan pada matematika kompleks serta manipulasi data biner (bit), dan memerlukan komputer untuk melakukan perhitungan yang rumit. Prinsip keamanannya bergantung pada kerahasiaan kunci sesuai Prinsip Kerckhoffs, bukan pada algoritmanya. Selain itu, kriptografi modern memperkenalkan penggunaan kunci simetris seperti AES dan kunci asimetris/publik seperti RSA dan ECC, yang membuat sistemnya lebih aman dan efisien dibandingkan kriptografi klasik.
