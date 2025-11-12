@@ -1,20 +1,29 @@
 # Laporan Praktikum Kriptografi
-Minggu ke-: X  
-Topik: [judul praktikum]  
-Nama: [Nama Mahasiswa]  
-NIM: [NIM Mahasiswa]  
-Kelas: [Kelas]  
+Minggu ke-: 5 
+Topik: [Cipher Klasik (Caesar, Vigenère, Transposisi)]  
+Nama: [Sri Rahayu]  
+NIM: [230202821]  
+Kelas: 5IKRB 
 
 ---
 
 ## 1. Tujuan
-(Tuliskan tujuan pembelajaran praktikum sesuai modul.)
+Setelah mengikuti praktikum ini, mahasiswa diharapkan mampu:  
+1. Menerapkan algoritma **Caesar Cipher** untuk enkripsi dan dekripsi teks.  
+2. Menerapkan algoritma **Vigenère Cipher** dengan variasi kunci.  
+3. Mengimplementasikan algoritma transposisi sederhana.  
+4. Menjelaskan kelemahan algoritma kriptografi klasik.  
 
 ---
 
 ## 2. Dasar Teori
-(Ringkas teori relevan (cukup 2–3 paragraf).  
-Contoh: definisi cipher klasik, konsep modular aritmetika, dll.  )
+---
+
+Cipher Klasik merupakan teknik kriptografi awal yang digunakan untuk menyembunyikan pesan dengan cara mengubah bentuk teks asli (plaintext) menjadi teks sandi (ciphertext) menggunakan aturan tertentu. Tujuan utamanya adalah menjaga kerahasiaan informasi agar tidak dapat dibaca oleh pihak yang tidak berwenang. Cipher klasik terbagi menjadi dua jenis utama, yaitu cipher substitusi (mengganti huruf dengan huruf lain) dan cipher transposisi** (menukar posisi huruf tanpa mengubah bentuk hurufnya).
+
+Caesar Cipher adalah salah satu jenis cipher substitusi paling sederhana, di mana setiap huruf pada plaintext digeser sejauh beberapa huruf dalam alfabet. Misalnya, dengan pergeseran 3, huruf A menjadi D, B menjadi E, dan seterusnya. Proses ini dapat dituliskan dengan rumus *C = (P + k) mod 26*, di mana *C* adalah ciphertext, *P* adalah plaintext, dan *k* adalah nilai pergeseran.
+
+Vigenère Cipher** merupakan pengembangan dari Caesar Cipher dengan menggunakan kunci berupa kata. Setiap huruf kunci menentukan besar pergeseran untuk huruf plaintext yang bersesuaian, sehingga pola pergeseran menjadi lebih kompleks dan sulit dipecahkan. Sementara itu, Cipher Transposisi tidak mengganti huruf, tetapi mengubah urutannya berdasarkan pola tertentu (seperti kolom atau baris), sehingga pesan asli menjadi acak. Ketiga metode ini menjadi dasar penting dalam perkembangan kriptografi modern karena memperkenalkan konsep enkripsi, dekripsi, dan kunci rahasia.
 
 ---
 
