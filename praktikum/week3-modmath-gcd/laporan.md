@@ -126,7 +126,8 @@ Contoh:
 ---
 
 ## 10. Commit Log
-commit d18c5c3d2b306faf5e250e3c4b820b31d4ba3503 (HEAD -> main, origin/main, origin/HEAD)
+
+commit d18c5c3d2b306faf5e250e3c4b820b31d4ba3503
 Author: Srirahayu2801 <ayu167580@gmail.com>
 Date:   Wed Nov 12 11:15:43 2025 +0700
 
