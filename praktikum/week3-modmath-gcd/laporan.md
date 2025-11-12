@@ -1,20 +1,25 @@
 # Laporan Praktikum Kriptografi
-Minggu ke-: X  
-Topik: [judul praktikum]  
-Nama: [Nama Mahasiswa]  
-NIM: [NIM Mahasiswa]  
-Kelas: [Kelas]  
+Minggu ke-: 3
+Topik: [03 Modular Math (Aritmetika Modular, GCD, Bilangan Prima, Logaritma Diskrit)]  
+Nama: [Sri Rahayu]  
+NIM: [230202821]  
+Kelas: [5IKRB]  
 
 ---
 
 ## 1. Tujuan
-(Tuliskan tujuan pembelajaran praktikum sesuai modul.)
+Setelah mengikuti praktikum ini, mahasiswa diharapkan mampu:
+
+1. Menyelesaikan operasi aritmetika modular.
+2. Menentukan bilangan prima dan menghitung GCD (Greatest Common Divisor).
+3. Menerapkan logaritma diskrit sederhana dalam simulasi kriptografi.
 
 ---
 
 ## 2. Dasar Teori
-(Ringkas teori relevan (cukup 2–3 paragraf).  
-Contoh: definisi cipher klasik, konsep modular aritmetika, dll.  )
+Cipher klasik adalah metode penyandian tradisional yang menggunakan algoritma sederhana untuk mengubah pesan asli (plaintext) menjadi pesan yang tidak bisa dimengerti (ciphertext) dengan tujuan menjaga kerahasiaan. Contoh cipher klasik adalah Caesar cipher, substitution cipher, dan transposition cipher, yang biasanya melibatkan penggantian atau penggeseran huruf sesuai aturan tertentu.
+
+Aritmetika modular adalah konsep matematika yang berhubungan dengan bilangan bulat dan sisa pembagian terhadap suatu bilangan tetap yang disebut modulus. Dalam aritmetika modular, perhitungan dilakukan berdasarkan sisa hasil pembagian, sehingga hasilnya "berputar" kembali ke nol setelah mencapai nilai modulus tertentu. Dua bilangan dikatakan kongruen modulo n jika selisihnya merupakan kelipatan dari n. Konsep ini sangat penting dalam kriptografi, termasuk dalam cipher klasik, dimana misalnya huruf-huruf alfabet yang dipetakan ke angka 0 hingga 25 kemudian hasil operasi dijaga agar selalu dalam rentang angka tersebut menggunakan aritmetika modular.
 
 ---
 
@@ -22,7 +27,6 @@ Contoh: definisi cipher klasik, konsep modular aritmetika, dll.  )
 (- Python 3.x  
 - Visual Studio Code / editor lain  
 - Git dan akun GitHub  
-- Library tambahan (misalnya pycryptodome, jika diperlukan)  )
 
 ---
 
